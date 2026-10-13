@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мої друзі</title>
+</head>
+
+<body>
+
+<h1>Мої друзі</h1>
+
+<p>
+    На цій сторінці представлені мої друзі.
+    Наведіть курсор на людину на фотографії.
+</p>
+
+<img src="1 (437).jpg"
+     width="1024"
+     height="683"
+     usemap="#friendsmap"
+     alt="Мої друзі">
+
+<map name="friendsmap">
+
+
+    <area shape="circle"
+          coords="345,218,55"
+          href="#friend1"
+          title="Моя подруга">
+
+    <area shape="circle"
+          coords="477,220,55"
+          href="#friend2"
+          title="Я">
+
+    <area shape="circle"
+          coords="568,156,55"
+          href="#friend3"
+          title="Мій друг">
+
+    <area shape="circle"
+          coords="724,215,55"
+          href="#friend4"
+          title="Моя подруга">
+
+</map>
+
+<h2 id="friend1">Подруга</h2>
+<p>
+    Це моя подруга. Вона добра, весела та товариська.
+</p>
+
+<h2 id="friend2">Я</h2>
+<p>
+    Це я.
+</p>
+
+<h2 id="friend3">Друг</h2>
+<p>
+    Це мій друг. Він веселий, дружелюбний та має гарне почуття гумору.
+</p>
+
+<h2 id="friend4">Подруга</h2>
+<p>
+    Це моя подруга. Вона активна, щира та приємна у спілкуванні.
+</p>
+
+</body>
+</html>
