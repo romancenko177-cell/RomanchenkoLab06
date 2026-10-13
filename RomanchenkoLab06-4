@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Навігаційна карта</title>
+</head>
+
+<body>
+
+<h1>Навігаційна карта</h1>
+
+<img src="map.jpg"
+     width="888"
+     height="537"
+     usemap="#navigation">
+
+<map name="navigation">
+
+    <area shape="circle"
+          coords="125,105,72"
+          href="RomanchenkoLab01-9.html"
+          title="Домашня сторінка">
+
+    <area shape="rect"
+          coords="334,45,538,176"
+          href="RomanchenkoLab05-3.htm"
+          title="Мої гіперпосилання">
+
+    <area shape="poly"
+          coords="721,23,796,61,796,135,721,173,646,135,646,61"
+          href="RomanchenkoLab06-3.htm"
+          title="Моя Батьківщина">
+
+</map>
+
+</body>
+</html>
