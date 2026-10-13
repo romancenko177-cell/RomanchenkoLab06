@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Моя Батьківщина</title>
+</head>
+
+<body>
+
+<h1>Моя Батьківщина — Україна</h1>
+
+<p>
+    Україна — моя Батьківщина. Це країна з красивою природою,
+    багатою історією та культурою.
+</p>
+
+<h2>Полтава</h2>
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Aerial_view_on_Kruhla_Square%2C_Poltava%2C_Ukraine_3.jpg"
+width="400"
+height="300"
+title="Кругла площа у Полтаві">
+
+<p>
+    Полтава — красиве українське місто з великою історією
+    та багатьма відомими пам’ятками.
+</p>
+
+<h2>Полтавський краєзнавчий музей</h2>
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/2/26/Aerial_view_on_the_Local_history_museum_in_Poltava%2C_Ukraine.jpg"
+width="400"
+height="300"
+title="Полтавський краєзнавчий музей та центральна частина міста">
+
+<p>
+    Полтава відома своєю архітектурою, музеями,
+    парками та зеленими вулицями.
+</p>
+
+<h2>Природа України</h2>
+
+<img
+src="https://commons.wikimedia.org/wiki/Special:FilePath/Ukrainian%20landscape%20with%20forest%20and%20stork.jpg"
+width="400"
+height="300"
+title="Красива природа України">
+
+<p>
+    Україна має різноманітну природу: ліси, поля,
+    річки, гори та мальовничі краєвиди.
+</p>
+
+</body>
+</html>
