@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Навігаційна карта</title>
+
+    <style>
+        .map-container {
+            position: relative;
+            width: 888px;
+        }
+
+        .map-container img {
+            width: 888px;
+            height: 537px;
+        }
+
+        .text1 {
+            position: absolute;
+            left: 55px;
+            top: 185px;
+        }
+
+        .text2 {
+            position: absolute;
+            left: 350px;
+            top: 185px;
+        }
+
+        .text3 {
+            position: absolute;
+            left: 650px;
+            top: 185px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Навігаційна карта</h1>
+
+<div class="map-container">
+
+    <img src="map.jpg"
+         usemap="#mymap"
+         alt="Навігаційна карта">
+
+    <div class="text1">
+        <b>Домашня сторінка</b>
+    </div>
+
+    <div class="text2">
+        <b>Мої гіперпосилання</b>
+    </div>
+
+    <div class="text3">
+        <b>Моя Батьківщина</b>
+    </div>
+
+</div>
+
+<map name="mymap">
+
+    <area shape="circle"
+          coords="125,105,72"
+          href="#"
+          title="Домашня сторінка">
+
+    <area shape="rect"
+          coords="334,45,538,176"
+          href="#"
+          title="Мої гіперпосилання">
+
+    <area shape="poly"
+          coords="721,23,796,61,796,135,721,173,646,135,646,61"
+          href="#"
+          title="Моя Батьківщина">
+
+</map>
+
+</body>
+</html>
